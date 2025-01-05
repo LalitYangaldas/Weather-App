@@ -15,6 +15,14 @@ Backend: Django
 Frontend: Streamlit
 APIs: OpenWeather API (for weather and air quality data), World Time API (for local time data)
 Libraries: Requests, JSON, and other standard Python libraries.
-Deployment:
 
-Users can access the app by running it locally or hosting it on a cloud server like Heroku or any other platform of their choice.
+Deployment:
+The Weather App has been successfully deployed using ngrok to expose the local development server to the web. You can access the live version of the app via the following URL:
+
+[Weather App URL](https://4c53-103-195-202-4.ngrok-free.app/)
+
+This deployment provides a publicly accessible link to the app, allowing users to interact with the weather information, including current conditions, air quality, and more, all retrieved in real-time.
+
+To access the app, simply click on the above link, and you'll be redirected to the weather dashboard where you can input a city and get live weather updates.
+
+
